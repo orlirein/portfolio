@@ -1,6 +1,7 @@
 from turtle import *
 import math
 
+
 # Name your Turtle.
 t = Turtle()
 
@@ -11,20 +12,20 @@ y_pos = -150
 # t.setposition(x_pos, y_pos)
 
 ### Write your code below:
-pendown()
+person = input("what's your name")
+print ("hello", person)
 
-for x in range(4):
-    right(90)
-    forward(100)
+while(True):
+    number = int(input("how many sides"))
+    print(number)
+    if number == 0:
+        break #break here
 
-penup()
+    for i in range(number):
+        pendown()
+        right(360/number)
+        forward(100)
+        penup()
 
-setposition (50,50)
-pendown ()
-for x in range(3):
-    right(120)
-    forward(100)
-
-penup()
 # Close window on click.
 exitonclick()
