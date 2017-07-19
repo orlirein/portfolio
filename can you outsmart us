@@ -1,0 +1,65 @@
+def question():
+    answer1 = input("What represents a line of text, a character, or a number , and can change throughout a program? a. a variable b. a constant c. a string")
+    if answer1 == "a" or answer1 == "a variable" or answer1 == "a." or answer1 == " a." or answer1 == " a":
+        print("You're a smart one")
+        question2()
+    else:
+        print("You're dumb. GAME OVER!!!!")
+        exit()
+
+def question2():
+    answer2 = input("What is the default message for the 'think __ for _ seconds' in Scratch? a. hello! b. hmm... c. hmmm'")
+    if answer2 == "hmm..." or answer2 == "b" or answer2 == "b." or answer2 == " b":
+        print("That was pure luck.")
+        question3()
+    else:
+        print("You're an idiot. GAME OVER!!!!")
+        exit()
+
+def question3():
+    answer3 = input("How do you write a for-loop formula in Python? Use x as a variable.")
+    if answer3 == "for x in range(x)" or answer3 == "for x in range (x)" or answer3 == " for x in range(x)" or answer3 == " for x in range (x)":
+        print("Phew. That was hard")
+        question4()
+    else:
+        print("You're an idiot. GAME OVER!!!!")
+        exit()
+
+def question4():
+    answer4 = input("What kind of computer are we using? a. Microsoft Windows Latitude E7340 b. Microsoft Windows Version 6.1.7601 c. Dell Version 6.E.7601")
+    if answer4 == "Microsoft Windows Version 6.1.7601" or answer4 == "b." or answer4 == " b." or answer4 == " b" or answer4 == "b":
+        print("Congrats. You're as smart as we are. Join the club.")
+    else:
+        print("Yep. You're an idiot. GAME OVER!!!!")
+        exit()
+
+
+start = input("Can you outsmart us?")
+if start == "yes" or start == "Yes":
+    print("We'll see about that...")
+    question()
+else:
+    print("GAME OVER!!!!")
+    exit()
+
+
+
+
+#
+# You wake up one morning and find that you aren't in your bed; you aren't even in your room.
+# You're in the middle of a giant maze.
+# A sign is hanging from the ivy: "You have one hour. Don't touch the walls."
+# There is a hallway to your right and to your left.
+# '''
+#
+#
+# print(start)
+#
+#
+# print("Type 'left' to go left or 'right' to go right.")
+# user_input = input()
+# if user_input == "left":
+#     print("You decide to go left and...") # finished the story by writing what happens
+#
+# elif user_input == "right":
+#     print("You choose to go right and ...") # finished the story writing what happens
